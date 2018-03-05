@@ -3,6 +3,8 @@ const consoleControl = (function(){
 
   function processAnimateText(){
     if(store.wordCount === store.texts.length){
+      document.querySelector('#blinker').classList.remove('blinker')
+      document.querySelector('#blinker').classList.add('hide')
       return store.waiting = true
     }
     animateText(1)

@@ -66,19 +66,28 @@ html, body{
   text-align:center;
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
   clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 65% 75%, 48% 100%, 50% 75%, 0% 75%);  
-  animation: moveInLeft 2.5s ease-out;
+  animation: fadeIn;
+  animation-timing-function: ease-out;
+  animation-duration: 2s;
+  animation-iteration-count: 5;
 }
 .brand-text{
   display:block;
   /* font-family: 'Bellefair', serif; */
   height:100px;
   margin-left:15px;
-  font-size:1.9rem;
-  font-weight:580;
+  font-size:1.5rem;
+  letter-spacing: 0.5px;
+  font-weight:450;
   color: rgba(202, 195, 195, 0.938);
-  padding:15px 20px;
+  padding:15px 15px;
 }
-
+.blinker{
+  animation: blinker 1s ease-in-out infinite
+}
+.hide{
+  display:none;
+}
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -104,4 +113,43 @@ html, body{
     opacity:1;
     transform: translate(0);
   }
+}
+@keyframes fadeIn{
+  0%{opacity:1}
+  10%{opacity: 0.8;}
+  20%{opacity: 0.6;}
+  30%{opacity: 0.4;}
+  40%{opacity: 0.2;}
+  50%{opacity: 0.1;}
+  60%{opacity: 0.2;}
+  70%{opacity: 0.4;}
+  80%{opacity: 0.6;}
+  90%{opacity: 0.8;}
+  100%{opacity:1;}
+}
+@keyframes blinker {
+  50%{opacity:0}
+}
+
+.footer{
+  padding: 20px 20px 40px 20px;
+}
+.contact-box{
+  width:50%;
+  text-align: center;
+}
+.contact-btn, .contact-btn:link{
+  display: inline-block;
+  padding:10px 50px;
+  background-color: rgb(216, 105, 62);
+  color:white;
+  text-decoration: none;
+  font-size:20px;
+  font-weight:500;
+}
+
+.icon{
+  display: inline-block;
+  height:40px;
+  margin:0 5px;
 }

@@ -1,6 +1,6 @@
 const store = (function(){
   return{
-    texts:'Lorem Ipsum Lorem Lorem Lorem Ipsum Lorem Lorem',
+    texts:'Hi, I am a Full-Stack Engineer, I love building apps.',
     wordCount:0,
     buffer:'',
     waiting:false
