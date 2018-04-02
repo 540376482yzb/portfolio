@@ -141,19 +141,22 @@ body {
 	width: 32%;
 	display: block;
 	position: relative;
+	border-radius: 5px;
+	height: 407px;
 }
 
 .work-image {
 	width: 100%;
 	height: 407px;
+	border-radius: 5px;
 }
 
 .work-image:hover {
 	position: absolute;
-	transform: scale(1.1, 1.1);
+	transform: scale(1.05, 1.05);
 	z-index: 1200;
-	border-radius: 15px;
-	box-shadow: 0 0 5px snow;
+	border-radius: 10px;
+	box-shadow: 0 0 2px dimgray;
 }
 .title {
 	position: absolute;
@@ -178,15 +181,16 @@ body {
 }
 
 .stack-span {
-	text-align: center;
 	position: absolute;
 	width: 100%;
 	bottom: 0;
 	overflow: hidden;
 	z-index: 1001;
 	background-color: black;
-	opacity: 0.8;
+	opacity: 0.9;
 	min-height: 100px;
+	padding-top: 5px;
+	padding-left: 10px;
 	padding-bottom: 5px;
 }
 .about {
@@ -204,11 +208,11 @@ body {
 .hidden {
 	display: none;
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1200px) {
 	.nav-item {
 		padding: 0.5rem 1rem;
-		font-size: 1.5rem;
-		font-weight: 500;
+		font-size: 1.7rem;
+		font-weight: 600;
 	}
 	.brand-text {
 		display: block;
@@ -226,4 +230,8 @@ body {
 	.thumbnail {
 		width: 48%;
 	}
+}
+
+a{
+	text-decoration: none;
 }

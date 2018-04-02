@@ -1,0 +1,28 @@
+{
+  "name": "portfolio_app",
+  "version": "1.0.0",
+  "description": "an portfolio app lists my projects",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/540376482yzb/portfolio_app.git"
+  },
+  "keywords": [
+    "portfolio",
+    "javascript",
+    "css"
+  ],
+  "author": "zhou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/540376482yzb/portfolio_app/issues"
+  },
+  "homepage": "https://github.com/540376482yzb/portfolio_app#readme"
+}
