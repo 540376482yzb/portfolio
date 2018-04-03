@@ -24,7 +24,7 @@ const renderWorks = store.projects.map(project => {
     return `<span class='stack'>${stack}</span>`
   })
   const about = `<div class='about'>
-  <i>Created : ${project.created} by ${project.author}</i>
+  <i>Created : ${project.created}</i>
 </div>`
   ++id
 
