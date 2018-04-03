@@ -70,7 +70,7 @@ body {
 	padding-top: 25px;
 	font-weight: 900;
 	font-size: 2rem;
-	color: rgba(31, 73, 150, 0.788);
+	color: rgba(48, 90, 168, 0.918);
 	background: linear-gradient(to right, grey, white);
 	text-align: center;
 }
@@ -106,6 +106,8 @@ body {
 
 .footer {
 	padding: 20px 20px 40px 20px;
+	background-color: #212121;
+	margin-top: 50px;
 }
 .contact-box {
 	width: 50%;
@@ -201,6 +203,55 @@ body {
 .hidden {
 	display: none;
 }
+
+a {
+	text-decoration: none;
+}
+
+.chart-container {
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-around;
+	background-color: rgba(255, 255, 243);
+}
+.chart-control {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: black;
+	width: 40%;
+}
+.chart-title {
+	background: linear-gradient(to right, grey, white);
+	position: absolute;
+	top: 5px;
+	transform: translateX(-240px);
+	padding: 20px 30px;
+	box-shadow: -1px 1px 2px rgba(56, 55, 55, 0.445);
+	color: rgb(41, 106, 228);
+}
+.chart-control button {
+	padding: 20px 20px;
+	margin: 30px 10px;
+	background-color: #3f51b5;
+	font-size: 16px;
+	border-radius: 3px;
+	width: 50%;
+	border: 0;
+	cursor: pointer;
+	font-weight: 600;
+	color: white;
+}
+.chart-control button:hover {
+}
+.chart-item {
+	display: block;
+	height: 500px;
+	width: 500px;
+}
+
 @media only screen and (max-width: 1200px) {
 	.nav-item {
 		padding: 0.5rem 1rem;
@@ -223,8 +274,4 @@ body {
 	.thumbnail {
 		width: 48%;
 	}
-}
-
-a {
-	text-decoration: none;
 }

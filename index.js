@@ -41,32 +41,43 @@ const renderWorks = store.projects.map(project => {
 })
 works.innerHTML = `<section class="grid">${renderWorks.join(' ')}</section>`
 
-// this.timerId
-// works.querySelectorAll.forEach(thumbnail => {
-//   thumbnail.addEventListener('mouseover', e => {
-//     console.log(works)
-//     clearTimeout(this.timerId)
-//     this.timerId = setTimeout(() => {
-//       let id = -1
-//       const copyWorks = store.projects.map(project => {
-//         const stacks = project.stacks.map(stack => {
-//           return `<span class='stack'>${stack}</span>`
-//         })
-//         const about = `<div class='about'>
-//         <i>Created : ${project.created} by ${project.author}</i>
-//       </div>`
-//         ++id
-//         return `<div id='${id}' class='thumbnail'>
-//                 <a href="https://placeholder.com"><img class='work-image focus-image' src='${project.urls[0]}'></a>
-//                   <title class='title hidden'></title>
-//                   <h3 class='title-text hidden'>${project.title}</h3>
-//                   <div class='stack-span'>
-//                     ${stacks.join(' ')}
-//                     ${about}
-//                   </div>
-//                 </div>`
-//       })
-//       works.innerHTML = `<section class="grid">${copyWorks.join(' ')}</section>`
-//     }, 100)
-//   })
-// })
+Chart.defaults.global.defaultFontColor = 'red'
+var ctx = document.getElementById('myChart')
+var myChart = new Chart(ctx, {
+  type: 'radar',
+  data: {
+    labels: ['Javascript', 'CSS3', 'Responsive Design', 'React/Redux', 'Vue'],
+    datasets: [
+      {
+        label: 'front end skills',
+        borderColor: 'rgba(126,120,217,0.9)',
+        backgroundColor: 'rgba(121,164,210,0.78)',
+        data: [75, 70, 70, 75, 50]
+      }
+    ]
+  },
+  options: {
+    legend: {
+      display: false
+    },
+    layout: {
+      padding: {
+        left: 10,
+        right: 10,
+        top: 10,
+        bottom: 10
+      }
+    },
+    scale: {
+      ticks: {
+        max: 90,
+        min: 0,
+        stepSize: 10
+      },
+      pointLabels: {
+        fontSize: 14,
+        fontColor: '#1B100E'
+      }
+    }
+  }
+})

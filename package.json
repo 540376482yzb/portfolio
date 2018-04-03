@@ -4,6 +4,7 @@
   "description": "an portfolio app lists my projects",
   "main": "index.js",
   "dependencies": {
+    "chart.js": "^2.7.2",
     "http-server": "^0.11.1"
   },
   "devDependencies": {},
