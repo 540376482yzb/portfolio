@@ -8,7 +8,10 @@ const store = (function() {
     projects: [
       {
         title: 'Share An Ride',
-        urls: ['/images/inntercities.png', 'https://github.com/540376482yzb/intercities_ride_sharing_client'],
+        urls: [
+          'https://github.com/540376482yzb/portfolio/blob/master/images/inntercities.PNG?raw=true',
+          'https://github.com/540376482yzb/intercities_ride_sharing_client'
+        ],
 
         stacks: ['full stack', 'React', 'Redux', 'Node', 'Express', 'MongoDb', 'Google Map API', 'Socket.io'],
         author: 'Zhoubing Yang',
@@ -16,7 +19,10 @@ const store = (function() {
       },
       {
         title: 'Noteful app',
-        urls: ['/images/note.png', 'https://github.com/540376482yzb/zhou_noteful_mongo'],
+        urls: [
+          'https://github.com/540376482yzb/portfolio/blob/master/images/note.PNG?raw=true',
+          'https://github.com/540376482yzb/zhou_noteful_mongo'
+        ],
 
         stacks: ['Node', 'Express', 'Mocha-Chai', 'Travic CI', 'Heroku', 'JavaScript', 'jQuery', 'MongoDB'],
         author: 'Zhoubing Yang',
@@ -24,21 +30,30 @@ const store = (function() {
       },
       {
         title: '2048 in React',
-        urls: ['/images/2048.png', 'https://github.com/540376482yzb/2048game_react'],
+        urls: [
+          'https://github.com/540376482yzb/portfolio/blob/master/images/2048.PNG?raw=true',
+          'https://github.com/540376482yzb/2048game_react'
+        ],
         stacks: ['React', 'Netlify', 'JavaScript'],
         author: 'Zhoubing Yang',
         created: 'Mar 30 2018'
       },
       {
         title: 'Game of Life in React',
-        urls: ['images/game-of-life.png', 'https://github.com/540376482yzb/game_of_life_react'],
+        urls: [
+          'https://github.com/540376482yzb/portfolio/blob/master/images/game-of-life.PNG?raw=true',
+          'https://github.com/540376482yzb/game_of_life_react'
+        ],
         stacks: ['React', 'Netlify', 'JavaScript'],
         author: 'Zhoubing Yang',
         created: 'Mar 29 2018'
       },
       {
         title: 'Cold Or Hot',
-        urls: ['/images/hot-cold-start.png', 'https://github.com/540376482yzb/zhou-Hot-Or-Cold'],
+        urls: [
+          'https://github.com/540376482yzb/portfolio/blob/master/images/hot-cold-start.PNG?raw=true',
+          'https://github.com/540376482yzb/zhou-Hot-Or-Cold'
+        ],
 
         stacks: ['React', 'Redux', 'Netlify', 'JavaScript'],
         author: 'Zhoubing Yang',
@@ -46,34 +61,14 @@ const store = (function() {
       },
       {
         title: 'Bookmark app',
-        urls: ['/images/bookmark.png', 'https://github.com/540376482yzb/Zhou-BookMark-App'],
+        urls: [
+          'https://github.com/540376482yzb/portfolio/blob/master/images/bookmark.PNG?raw=true',
+          'https://github.com/540376482yzb/Zhou-BookMark-App'
+        ],
 
         stacks: ['html', 'css', 'JavaScript', 'jQuery', 'RESTful API'],
         author: 'Zhoubing Yang',
         created: 'Feb 5 2018'
-      },
-      {
-        title: 'Simon Game',
-        urls: ['images/simon.png', 'https://codepen.io/zhy0391/pen/xPjjqJ/'],
-        stacks: ['html', 'css', 'JavaScript', 'jQuery'],
-        author: 'Zhoubing Yang',
-        created: 'Dec 15 2017'
-      },
-      {
-        title: 'Tic Tac Toe',
-        urls: ['/images/tic-tac-toe.png', 'https://codepen.io/zhy0391/full/rYJaBZ/'],
-
-        stacks: ['html', 'css', 'JavaScript', 'jQuery'],
-        author: 'Zhoubing Yang',
-        created: 'Dec 1 2017'
-      },
-      {
-        title: 'Pomodoro app',
-        urls: ['/images/timer.png', 'https://codepen.io/zhy0391/full/zPPwbR/'],
-
-        stacks: ['html', 'css', 'JavaScript', 'jQuery'],
-        author: 'Zhoubing Yang',
-        created: 'Nov 23 2017'
       }
     ]
   }

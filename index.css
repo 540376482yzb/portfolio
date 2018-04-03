@@ -151,16 +151,6 @@ body {
 	border-radius: 5px;
 }
 
-<<<<<<< HEAD
-=======
-.work-image:hover {
-	position: absolute;
-	transform: scale(1.05, 1.05);
-	z-index: 1200;
-	border-radius: 10px;
-	box-shadow: 0 0 2px dimgray;
-}
->>>>>>> d606221589d7563965a828c0be3218ad71af886b
 .title {
 	position: absolute;
 	width: 100%;
@@ -235,6 +225,6 @@ body {
 	}
 }
 
-a{
+a {
 	text-decoration: none;
 }
