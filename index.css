@@ -148,13 +148,6 @@ body {
 	height: 407px;
 }
 
-.work-image:hover {
-	position: absolute;
-	transform: scale(1.1, 1.1);
-	z-index: 1200;
-	border-radius: 15px;
-	box-shadow: 0 0 5px snow;
-}
 .title {
 	position: absolute;
 	width: 100%;
